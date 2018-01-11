@@ -1,9 +1,44 @@
 /* Stylesheet for Portfolio Website */
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: #2d3c49;
+}
+
+/* wrapper */
+.wrapper {
+    width: 100%;
+    padding: 50px 20px;
+    /* display: flex; */
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    border-bottom: #7d97ad solid 5px;
+    margin-bottom: 23px;
+}
+
+main {
+    display: flex;
+}
 
 img {
     max-width: 100%;
 }
 
+/* header */
 img.header__logo {
-    width: 115px;
+    width: 100px;
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.header__subtitle {
+    text-transform: uppercase;
+    font-weight: normal;
 }
