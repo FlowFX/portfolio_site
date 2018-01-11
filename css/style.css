@@ -1,4 +1,8 @@
+/* Stylesheet for Portfolio Website */
 
+img {
+    max-width: 100%;
+}
 
 img.header__logo {
     width: 115px;
