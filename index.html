@@ -10,11 +10,13 @@
   <body>
 
     <div class="wrapper">
-      <header class="header">
-        <div class="header__inner">
+      <header class="header container justify">
+        <div class="header__left">
           <img class="header__logo" src="images/udacity.svg" alt="iconic view of a cityscape">
+        </div>
+        <div class="header__right">
           <h1 class="header__title">Florian Posdziech</h1>
-          <h3 class="header__subtitle">Front-end novice</h2>
+          <p class="header__subtitle">Front-end novice</p>
         </div>
       </header>
 
@@ -24,44 +26,45 @@
             <img src="images/hero.jpg" alt="">
           </section>
 
+
           <section class="featured">
-            <h2>Featured Work</h2>
+            <h2 class="featured__title">Featured Work</h2>
+            <div class="container justify">
+              <article class="box text-center">
+                <img src="images/reggae.jpg" alt="screenshot of reggae-cdmx.com">
+                <h3>Reggae CDMX</h3>
+                <p>
+                  <a class="featured__link" href="https://www.reggae-cdmx.com">https://www.reggae-cdmx.com/</a>
+                </p>
+              </article>
 
-            <article>
-              <img src="images/reggae.jpg" alt="screenshot of reggae-cdmx.com">
-              <h3>Reggae CDMX</h3>
-              <p>
-                <a href="https://www.reggae-cdmx.com">https://www.reggae-cdmx.com/</a>
-              </p>
-            </article>
+              <article class="box text-center">
+                <img src="images/unkenmathe.jpg" alt="screenshot of unkenmathe.de">
+                <h3>Unkenmathe</h3>
+                <p>
+                  <a class="featured__link" href="https://www.unkenmathe.de">https://www.unkenmathe.de/</a>
+                </p>
+              </article>
 
-            <article>
-              <img src="images/unkenmathe.jpg" alt="screenshot of unkenmathe.de">
-              <h3>Unkenmathe</h3>
-              <p>
-                <a href="https://www.unkenmathe.de">https://www.unkenmathe.de/</a>
-              </p>
-            </article>
-
-            <article>
-              <img src="images/lexa.jpg" alt="screenshot of lexa.mx">
-              <h3>Lexa.mx</h3>
-              <p>
-                <a href="https://www.lexa.mx">https://www.lexa.mx/</a>
-              </p>
-            </article>
-
+              <article class="box text-center">
+                <img src="images/lexa.jpg" alt="screenshot of lexa.mx">
+                <h3>Lexa.mx</h3>
+                <p>
+                  <a class="featured__link" href="https://www.lexa.mx">https://www.lexa.mx/</a>
+                </p>
+              </article>
+            </div>
           </section>
         </section>
 
 
       </main>
 
-      <footer>
-        <ul>
-          <li><a href="https://flowfx.de/">flowfx.de</a></li>
-          <li><a href="https://twitter.com/flowfx_">@flowfx_</a></li>
-        </ul>
+      <footer class="footer text-center">
+        <p>
+          <a class="footer__link" href="https://flowfx.de/" title="Florian on the web">flowfx.de</a>
+          <a class="footer__link" href="https://twitter.com/flowfx_" title="Florian on the Twitter">@flowfx_</a>
+        </p>
       </footer>
 
     </div>
